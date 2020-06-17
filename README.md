@@ -1,5 +1,5 @@
 # eventsHub
-Repo consisty of two folders:
+Repo consist of two folders:
 auth-ap - actual angular application
 server - simple node server to handle API request
 
