@@ -1,7 +1,7 @@
 # eventsHub
 Repo consist of two folders:
-auth-ap - actual angular application
-server - simple node server to handle API request
+- auth-ap - actual angular application
+- server - simple node server to handle API request
 
 ## still to do :
  * encrypt the password => don't store the password in DB as simple string
