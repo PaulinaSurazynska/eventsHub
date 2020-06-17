@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const connectdDB = require('./dbConnect');
+const cors = require('cors');
 
 const PORT = 3000;
 
@@ -8,6 +9,8 @@ const PORT = 3000;
 const app = express();
 connectdDB();
 const api = require('./routes/api');
+
+app.use(cors());
 
 // specify body parser to handle json data
 app.use(bodyParser.json());
